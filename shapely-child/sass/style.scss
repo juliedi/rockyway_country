@@ -1,0 +1,210 @@
+@import "compass/reset";
+$racine-images : "http://localhost/RockyWay/wordpress/wp-content/themes/shapely-child/";
+@font-face {
+    font-family: 'Carnevalee Freakshow';
+    src: url('font/Carnevalee Freakshow.ttf'),
+    }
+h2{
+    font-family: 'Carnivalee Freakshow';
+    color: black;
+    font-size: 50px;
+    line-height: 87px;
+    color: #bb3136;
+    font-size: 50px;
+}
+.presentation{
+    margin-left: -183px;
+}
+h3{
+    font-family: 'segoe UI';
+    font-size: 18px;
+}
+h4{
+    font-family: 'segoe UI';
+    font-size: 18px;
+    font-weight: bold;
+}
+h5{
+    font-family: 'segoe UI';
+    font-size: 18px;  
+}
+/*en attente
+p{
+    line-height: 16px;
+    text-align: center;
+    margin-top: 17px;
+}
+/*en attente*/
+#flag{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+.flag{
+
+}
+/*exemple image footer*/
+
+a.url{
+
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+#copyright{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+ footer#colophon{
+ 
+   background-image: url($racine-images+"wood_footer.png");
+ 
+   background-repeat: no-repeat;
+ 
+    
+ 
+ }
+ 
+ div#texte{
+ 
+    display: flex;
+ 
+    height: 83px;
+ 
+    padding: 21px;
+ 
+ }
+ 
+ div#texte > div {
+ 
+     width:100%;
+ 
+     text-align: center;}
+ 
+ i.fa.fa-angle-up{
+    color: black;
+
+}
+
+#site-navigation{
+    background-image: url($racine-images+"navbar.png");
+ 
+    background-repeat: no-repeat; 
+    height: 206px;
+ } 
+ /*page association */
+ .flex {
+     display:flex;
+   
+ }
+ .flex > div {
+     width: 50%;
+       margin-top: -9px;
+     margin-left: 61px;
+ }
+
+#associationimg{
+    margin-top: 105px;
+    margin-bottom: 105px;
+}
+#membres{
+    background-image: url($racine-images+"fond_membres.png");
+    height:1200px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+p{
+	text-align: justify;
+	font-family: 'Segoe Ui';
+	line-height:1.3em;
+}
+
+label{
+	text-align: left;
+	color: #808080e6;
+	width: 547px;
+}
+/*----------------------FORMULAIRE----------------------*/
+
+/*div qui englobe le formulaire*/
+div#wpcf7-f5-p21-o1.wpcf7{
+	padding-top: 3%;
+}
+
+/*cases obligatoires du formulaire*/
+input[type="text"], input[type="search"], input[type="email"], input[type="tel"]{
+	height: 35px;
+}
+
+/*case message du formulaire*/
+textarea.wpcf7-form-control.wpcf7-textarea{
+	height: 150px;
+}
+
+/*--bouton du formulaire---*/
+input.wpcf7-submit {
+
+	
+	margin-top: 27px;
+	width: 125px;
+}
+
+
+/*-------------------------------MAP--------------------------*/
+div#agm-canvas.agm-canvas{
+	margin: 13px auto;
+	width: 90%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 2px 5px 20px #888888;
+
+}
+
+/*img saloon*/
+img.alignleft.size-full.wp-image-161{
+	margin-left: 5%;
+	margin-top: 9%;
+}
+
+/*img plume*/
+img.aligncenter.size-full.wp-image-160{
+	display: inline;
+	margin-top: 9%;
+	margin-left: 32%;
+}
+
+/*img facebook*/
+img.alignright.size-full.wp-image-159{
+	margin-right: 5%;
+	margin-top: 9%;
+}
+
+h3#adresse{
+	font-family: 'Segoe Ui';
+	font-weight: bold;
+	margin-left: 5%;
+	margin-top: 7%;
+    font-size: 20px;
+}
+
+ul.guinguette{
+	margin-top: 3%;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+ul.guinguette>li{
+	margin-left: 5%; 
+	font-family: 'Segoe Ui';
+}
+
+a{
+    margin-top: 3%;
+	margin-left: 5%;
+	font-size: 20px;
+}
